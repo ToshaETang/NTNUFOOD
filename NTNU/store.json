@@ -1,0 +1,758 @@
+[
+  {
+    "name": "師園鹹酥雞",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "銅樂時尚鍋物",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "燈籠滷味(大燈籠)",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "燈籠滷味(小燈籠)",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "麗江南洋風味麵食館",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "雲南小鎮",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "宜蘭蔥抓餅",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "糧倉_龍泉居",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "囍咖啡 ",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "皇泰泰",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "台電勵進餐廳",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "燕媽媽廚房",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "越南美食",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "林園粗食",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "寶島牛牛肉麵",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "好好味港式菠蘿包",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "成都麵疙瘩攤",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "孟記椒麻雞大王",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "老吉麥",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "咖哩戰線",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "inn cafe ",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "溫州街蘿蔔絲餅達人",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "馬來西亞肉骨茶",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "阿文牛肉麵",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "翁師父私房牛肉麵",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "難吃 NAN CHU 2019",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "Macho Tacos 瑪丘墨式餅舖 (師大 Shida)",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "永豐盛 手工包子饅頭專賣店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "PAPA RESTAURANT ",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "男子漢早餐店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "金廚北平烤鴨店",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "玄玄福州麵",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "金家飯捲",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "Ooh Cha Cha 自然食",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "同心大腸蚵仔麵線",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "加里曼丹印尼美食",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "福岡日式簡餐",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "【泓得素食】健康蔬食",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "勇伯好吃土雞肉專賣店",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "嘎嘛鍋",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "幸福日式飯糰",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "五草車中華食館",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "古北饕",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "小林麵館",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "鹹粥",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "客來源素坊",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "牛雜",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "百八魚場",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "聚日式鍋物",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "林記牛肉麵",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "すき家 SUKIYA 古亭店 ",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "悟饕池上飯包 - 台北羅斯福店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "帝拉摩義式餐廳",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "好佳亭自助餐",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "阿妹麵店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "友間食堂",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "古亭真味肉圓",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "Tommy Coffee",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "13Burger",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "福園簡餐",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "小胡同食堂",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "阿婆早餐",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "福來早餐 古亭店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "可大可小",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "麵屋舜水蟬",
+    "vegetarian": false,
+    "takeOut": false,
+    "dine": false,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "真劍拉麵",
+    "vegetarian": false,
+    "takeOut": false,
+    "dine": false,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "京都柚子豚骨拉麵研究中心 師大店",
+    "vegetarian": false,
+    "takeOut": false,
+    "dine": false,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "麥當勞-羅斯福餐廳",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "漢堡王 新師大店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "PIZZA HUT 必勝客師大店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "薩莉亞 師範大學店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "Subway",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "福勝亭 師大店",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "SECOND FLOOR CAFE 貳樓師大",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "銀兔湯咖哩(師大本店)",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": false,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "瑪莉珍披薩 師大店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "印渡風情印度 餐廳師大店",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "雲鼎阿二麻辣 食堂-師大店",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "焦糖楓串燒平價連鎖第一品牌\/師大直營店(內用.外帶)",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  },
+  {
+    "name": "東大門韓國特色料理",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "香港鑫華茶餐廳",
+    "vegetarian": false,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": true
+  },
+  {
+    "name": "職人鐵板燒",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": true,
+    "otherType": true,
+    "rice": true,
+    "noodle": false
+  },
+  {
+    "name": "EatFat Pasta",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": false,
+    "rice": false,
+    "noodle": true
+  },
+  {
+    "name": "古亭佳味蘿蔔絲餅",
+    "vegetarian": true,
+    "takeOut": true,
+    "dine": false,
+    "otherType": true,
+    "rice": false,
+    "noodle": false
+  }
+]
