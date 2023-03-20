@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import { Component } from 'react';
 import { StyleSheet, Text, View, Button, TouchableOpacity,Alert,SafeAreaView,TouchableHighlight,AppRegistry} from 'react-native';
 import storeData from './store.json';
+import { Linking } from 'react-native';
 
 {/* ------------會改的參數------------ */}
 
@@ -142,7 +143,7 @@ export default function App() {
 
         let n = getRandomInt(result.length);
         Alert.alert(result[n].name);
-
+        Linking.openURL(result[n].googleMap);
 
     }///
 
