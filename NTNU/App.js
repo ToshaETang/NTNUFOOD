@@ -147,6 +147,11 @@ export default function App() {
 
     }///
 
+    function userReturn(){
+        Linking.openURL('https://forms.gle/cBkmkwqu879Lyajj7');
+    }
+
+
 
 
 
@@ -248,10 +253,18 @@ export default function App() {
 
       <View style={styles.button1}>
         <Button
-            title="  SEARCH  "
-            color="#EFC997"
+            title="            SEARCH            "
+            color="#5F2A05"
             onPress={search}
         />
+      </View>
+
+      <View style={styles.button1}>
+         <Button
+             title="使用者回饋"
+             color="#F4DAB8"
+             onPress={userReturn}
+         />
       </View>
 
     </View>
