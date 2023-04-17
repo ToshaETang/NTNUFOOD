@@ -1,0 +1,3 @@
+cd android
+./gradlew bundleRelease
+打包語法

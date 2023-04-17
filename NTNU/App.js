@@ -18,6 +18,8 @@ let b3=0;
 let b4=0;
 let b5=0;
 let b6=0;
+let b7=0;
+let b8=0;
 
 let rice=false;
 let noodle=false;
@@ -25,6 +27,8 @@ let vegetarian=false;
 let otherType=false;
 let takeOut=false;
 let dine=false;
+let Guting=false;
+let Gongguan=false;
 
 const count = Object.keys(storeData).length;
 
@@ -117,10 +121,46 @@ export default function App() {
        }
     }
 
+    const [buttonText7, setButtonText7] = useState('     ');
+    function handleClick7(){
+       b7=b7+1;
+       if(b7%2==1){
+        setButtonText7(' V  ');
+        Guting=true;
+       }
+       else{
+        setButtonText7('     ');
+        Guting=false;
+       }
+    }
+
+    const [buttonText8, setButtonText8] = useState('     ');
+    function handleClick8(){
+       b8=b8+1;
+       if(b8%2==1){
+        setButtonText8(' V  ');
+        Gongguan=true;
+       }
+       else{
+        setButtonText8('     ');
+        Gongguan=false;
+       }
+    }
+
 
     function search(){
 
         let result = storeData;
+
+        if(Guting==true && Gongguan==true){
+            result = result
+        }
+        else if(Guting==true){
+            result = result.filter(function (e) { return e.Guting == true; })
+        }
+        else if(Gongguan==true){
+            result = result.filter(function (e) { return e.Gongguan == true; })
+        }
 
         if(vegetarian==true){
             result = result.filter(function (e) { return e.vegetarian == true; })
@@ -141,6 +181,7 @@ export default function App() {
             result = result.filter(function (e) { return e.noodle == true; })
         }
 
+
         let n = getRandomInt(result.length);
         Alert.alert(result[n].name);
         Linking.openURL(result[n].googleMap);
@@ -150,8 +191,6 @@ export default function App() {
     function userReturn(){
         Linking.openURL('https://forms.gle/cBkmkwqu879Lyajj7');
     }
-
-
 
 
 
@@ -248,6 +287,34 @@ export default function App() {
                   <StatusBar style="auto" />
             </View>
       </View>
+
+            <View style={styles.container2}>
+                  <View style={styles.button2}>
+                    <Button
+                      title={buttonText7}
+                      color="#EFC997"
+                      onPress={handleClick7}
+                    />
+                  </View>
+
+                  <View style={styles.text}>
+                        <Text style={{color:'#5F2A05', fontSize:30}}>本部</Text>
+                        <StatusBar style="auto" />
+                  </View>
+
+                  <View style={styles.button2}>
+                    <Button
+                      title={buttonText8}
+                      color="#EFC997"
+                      onPress={handleClick8}
+                    />
+                  </View>
+
+                  <View style={styles.text}>
+                        <Text style={{color:'#5F2A05', fontSize:30}}>分部</Text>
+                        <StatusBar style="auto" />
+                  </View>
+            </View>
 
     {/* ------------篩選按鈕區------------ */}
 
