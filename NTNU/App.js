@@ -1,9 +1,8 @@
-import { StatusBar } from 'react-native';
+import { StatusBar, Linking, TextInput } from 'react-native';
 import React, {useState} from 'react';
 import { Component } from 'react';
 import { StyleSheet, Text, View, Button, TouchableOpacity,Alert,SafeAreaView,TouchableHighlight,AppRegistry} from 'react-native';
 import storeData from './store.json';
-import { Linking } from 'react-native';
 
 {/* ------------會改的參數------------ */}
 
@@ -193,11 +192,28 @@ export default function App() {
     }
 
 
+    const [name, setName] = useState(""); //輸入
+
+
+
+
 
   return (
     <View style={styles.container}>
       <Text style={{color:'#5F2A05', fontSize:50, marginTop: 40}}>NTNUFOOD</Text>
       <StatusBar style="auto" />
+
+
+
+      <View>
+         <TextInput
+            style={styles.input}
+            onSubmitEditing={(value) => setName(value.nativeEvent.text)}
+         />
+      </View>
+
+
+
 
     {/* ------------篩選按鈕區------------ */}
 
@@ -320,7 +336,7 @@ export default function App() {
 
       <View style={styles.button1}>
         <Button
-            title="            SEARCH            "
+            title="                  搜尋                  "
             color="#5F2A05"
             onPress={search}
         />
@@ -337,6 +353,7 @@ export default function App() {
     </View>
   );
 }
+
 
 
 {/* --------------------------CSS區------------------------- */}
@@ -377,5 +394,11 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     marginLeft: 5
   },
+  input: {
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+   },
 });
 
