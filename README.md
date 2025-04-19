@@ -1,6 +1,6 @@
 # NTNUFOOD
 
-Google play: https://play.google.com/store/apps/details?id=com.ntnu&hl=zh-TW
+Google play: https://play.google.com/store/apps/details?id=com.ntnu&hl=zh-TW (連結已失效)
 
 想嘗試新餐廳但毫無頭緒? 今天要吃什麼總是讓您煩惱？  
 別擔心！現在有了我們，幫您輕鬆解決食物選擇困難  
